@@ -75,7 +75,7 @@ void loop() {
       Serial.print(receivePins[i]); 
       Serial.print("  ->  Actuated ");
       
-      // Format the output print cleanly for Analog vs Digital pins
+      // Format the output print cleanly for Analog vs Digital pinsgi
       if (actuatePins[i] == A1) Serial.print("A1");
       else if (actuatePins[i] == A2) Serial.print("A2");
       else if (actuatePins[i] == A3) Serial.print("A3");
